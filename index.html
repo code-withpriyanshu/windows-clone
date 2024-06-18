@@ -8,9 +8,14 @@
   </head>
   <body>
     <div id="main">
-      <div id="minimenu"></div>
       <div id="wallpaper">
-        <div class="thispc element">
+        <div id="minimenu">
+          <ul id="minimenu-content">
+            <li onclick="newfolder()">new folder</li>
+            <li>rename</li>
+          </ul>
+        </div>
+        <div class="thispc folder">
           <img
             src="https://img.icons8.com/clouds/100/this-pc.png"
             alt="this-pc"
@@ -23,6 +28,7 @@
             alt="folder-invoices--v1"
             onclick="baby()"
           />
+          <h2>folder</h2>
         </div>
       </div>
       <div id="taskbar"></div>
